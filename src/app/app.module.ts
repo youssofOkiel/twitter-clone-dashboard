@@ -7,13 +7,15 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { MainComponent } from './components/main/main.component';
 import {NgCircleProgressModule} from 'ng-circle-progress'
 import { HttpClientModule } from '@angular/common/http';
+import { TweetsComponent } from './components/tweets/tweets.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    MainComponent
+    MainComponent,
+    TweetsComponent
   ],
   imports: [
   BrowserModule,

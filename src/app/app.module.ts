@@ -8,7 +8,7 @@ import { MainComponent } from './components/main/main.component';
 import {NgCircleProgressModule} from 'ng-circle-progress'
 import { HttpClientModule } from '@angular/common/http';
 import { TweetsComponent } from './components/tweets/tweets.component';
-
+import { UsersComponent } from './components/users/users.component';
 
 @NgModule({
   declarations: [
@@ -16,9 +16,10 @@ import { TweetsComponent } from './components/tweets/tweets.component';
     NavbarComponent,
     MainComponent,
     TweetsComponent
+    UsersComponent
   ],
   imports: [
-  BrowserModule,
+    BrowserModule,
     AppRoutingModule,
     NgCircleProgressModule.forRoot({}),
     HttpClientModule

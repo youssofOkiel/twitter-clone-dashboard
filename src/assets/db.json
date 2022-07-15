@@ -1,0 +1,449 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "userName": "Abdelsatar17",
+      "email": "abdelsatar17@gmail.com",
+      "password": "abdelsatar@646464"
+    },
+    {
+      "id": 2,
+      "userName": "Mohamed",
+      "email": "mohamed45@gmail.com",
+      "password": "mo12@#$@$425"
+    },
+    {
+      "id": 3,
+      "userName": "Youssef",
+      "email": "youssef123@gmail.com",
+      "password": "youuu112233"
+    },
+    {
+      "id": 4,
+      "userName": "Mostafa",
+      "email": "darsh12@gmail.com",
+      "password": "Mostafa43534"
+    },
+    {
+      "id": 5,
+      "userName": "Marwa",
+      "email": "Marwa111@gmail.com",
+      "password": "mAr123@456"
+    },
+    {
+      "id": 7,
+      "userName": "Ibtesal",
+      "email": "sal45235@gmail.com",
+      "password": "Ibts1@2#"
+    }
+  ],
+  "tweets": [
+    {
+      "id": 1019709091038548000,
+      "text": "The price of lumber $LB_F is down 22% since hitting its YTD highs. The Macy's $M turnaround is still happening.… https://t.co/XnKsV4De39",
+      "timestamp": "Wed Jul 18 22:22:47 +0000 2018",
+      "tweetOwner": "Abdelsata17",
+      "symbols": "M",
+      "company_names": "Macy's",
+      "url": "https://twitter.com/i/web/status/1019709091038547968",
+      "verified": "True"
+    },
+    {
+      "id": 1019711413798035500,
+      "text": "Who says the American Dream is dead? https://t.co/CRgx19x7sA",
+      "timestamp": "Wed Jul 18 22:32:01 +0000 2018",
+      "tweetOwner": "Mohamed",
+      "symbols": "AIG",
+      "company_names": "American",
+      "url": "https://buff.ly/2L3kmc4",
+      "verified": "True"
+    },
+    {
+      "id": 1019718460287389700,
+      "text": "How satellites avoid attacks and space junk while circling the Earth https://t.co/aHzIV3Lqp5 #paid @Oracle https://t.co/kacpqZWiDJ",
+      "timestamp": "Wed Jul 18 23:00:01 +0000 2018",
+      "tweetOwner": "Youssef",
+      "symbols": "ORCL",
+      "company_names": "Oracle",
+      "url": "http://on.forbes.com/6013DqDDU",
+      "verified": "True"
+    },
+    {
+      "id": 1019719465095790600,
+      "text": ".@RealMoney's David Butler's favorite FANG stock isn't #RealMoneySOD Alphabet but Facebook https://t.co/MczAPSFjOi",
+      "timestamp": "Wed Jul 18 23:04:00 +0000 2018",
+      "tweetOwner": "Abdelsatar17",
+      "symbols": "FB-GOOGL-GOOG",
+      "company_names": "Facebook*Alphabet*Alphabet",
+      "url": "http://bit.ly/2NrYxje",
+      "verified": "True"
+    },
+    {
+      "id": 1019720209786114000,
+      "text": "Don’t miss my convo with one of my favorite thinkers @SamHarrisOrg! https://t.co/uuPVxIobCh",
+      "timestamp": "Wed Jul 18 23:06:58 +0000 2018",
+      "tweetOwner": "Mohamed",
+      "symbols": "HRS",
+      "company_names": "Harris",
+      "url": "https://twitter.com/samharrisorg/status/1019719376348434433",
+      "verified": "True"
+    },
+    {
+      "id": 1019720659738480600,
+      "text": "U.S. intelligence documents on Nelson Mandela made public https://t.co/XTnEfo1rO6 https://t.co/V8DXkWDQ6R",
+      "timestamp": "Wed Jul 18 23:08:45 +0000 2018",
+      "tweetOwner": "Mostafa",
+      "symbols": "INTC-USB",
+      "company_names": "Intel*U.S.",
+      "url": "https://reut.rs/2O0ypNf",
+      "verified": "True"
+    },
+    {
+      "id": 1019720723441635300,
+      "text": "Senate wants emergency alerts to go out through Netflix Spotify etc. https://t.co/23yy3whBlc by @grg",
+      "timestamp": "Wed Jul 18 23:09:00 +0000 2018",
+      "tweetOwner": "Youssef",
+      "symbols": "NFLX",
+      "company_names": "Netflix",
+      "url": "https://tcrn.ch/2L8DsgT",
+      "verified": "True"
+    },
+    {
+      "id": 1019721145396887600,
+      "text": "Hedge fund manager Marc Larsy says bitcoin $40K is possible https://t.co/54uPe0OWqT",
+      "timestamp": "Wed Jul 18 23:10:41 +0000 2018",
+      "tweetOwner": "Abdelsatar17",
+      "symbols": "BTC",
+      "company_names": "Bitcoin",
+      "url": "https://on.mktw.net/2Ntr7k9",
+      "verified": "True"
+    },
+    {
+      "id": 1019723744804245500,
+      "text": "Roger Federer's Uniqlo deal makes him one of the few athletes to earn more than $70M from endorsements… https://t.co/jQ8sOAyeBQ",
+      "timestamp": "Wed Jul 18 23:21:00 +0000 2018",
+      "tweetOwner": "Mostafa",
+      "symbols": "ENDP",
+      "company_names": "Endo",
+      "url": "https://twitter.com/i/web/status/1019723744804245504",
+      "verified": "True"
+    },
+    {
+      "id": 1019723856741830700,
+      "text": "Bond traders are ahead of Jerome Powell when it comes to inflation expectations https://t.co/DkdZLcy3mT via… https://t.co/UCX7EiHP4r",
+      "timestamp": "Wed Jul 18 23:21:27 +0000 2018",
+      "tweetOwner": "Youssef",
+      "symbols": "HPQ",
+      "company_names": "HP",
+      "url": "https://bloom.bg/2zSKhOu",
+      "verified": "True"
+    },
+    {
+      "id": 1019724534092566500,
+      "text": "Alcoa cuts adjusted EBITDA forecast citing tariffs shares slide https://t.co/mdMJXjnYIs https://t.co/5O8fvwlHpY",
+      "timestamp": "Wed Jul 18 23:24:09 +0000 2018",
+      "tweetOwner": "Abdelsatar17",
+      "symbols": "HPQ",
+      "company_names": "HP",
+      "url": "https://reut.rs/2NZoM1r",
+      "verified": "True"
+    },
+    {
+      "id": 1019725139905216500,
+      "text": "Customers urge boycott of MGM Resorts after the casino files lawsuits against mass shooting victims… https://t.co/dAhk87dPmA",
+      "timestamp": "Wed Jul 18 23:26:33 +0000 2018",
+      "tweetOwner": "Mohamed",
+      "symbols": "MGM",
+      "company_names": "MGM Resorts",
+      "url": "https://twitter.com/i/web/status/1019725139905216512",
+      "verified": "True"
+    },
+    {
+      "id": 1019726007408898000,
+      "text": "The gap tightens in the race to a trillion dollar valuation as Amazon hits $900 billion https://t.co/zjzm25Aglq via… https://t.co/difuFt6sGp",
+      "timestamp": "Wed Jul 18 23:30:00 +0000 2018",
+      "tweetOwner": "Mostafa",
+      "symbols": "AMZN-GPS",
+      "company_names": "Amazon*The Gap",
+      "url": "https://reut.rs/2L7awGb",
+      "verified": "True"
+    },
+    {
+      "id": 1019726537778704400,
+      "text": "President Trump endorses Brian Kemp over Casey Cagle in Georgia governor’s race https://t.co/VhgN5rNRAW",
+      "timestamp": "Wed Jul 18 23:32:06 +0000 2018",
+      "tweetOwner": "Youssef",
+      "symbols": "ENDP",
+      "company_names": "Endo",
+      "url": "https://nyti.ms/2NsnHy3",
+      "verified": "True"
+    },
+    {
+      "id": 1019729988017377300,
+      "text": "White House struggles to contain fallout from Trump-Putin summit https://t.co/NtzACHJibs https://t.co/fLshAUDRzs",
+      "timestamp": "Wed Jul 18 23:45:49 +0000 2018",
+      "tweetOwner": "Abdelsatar17",
+      "symbols": "UDR",
+      "company_names": "UDR",
+      "url": "https://reut.rs/2NrEv8t",
+      "verified": "True"
+    },
+    {
+      "id": 1019733557646770200,
+      "text": "Lakers guard Hart named summer league MVP and more U.S. sports headlines https://t.co/RVryAQdPqd https://t.co/r5x71iFFSL",
+      "timestamp": "Thu Jul 19 00:00:00 +0000 2018",
+      "tweetOwner": "Mohamed",
+      "symbols": "ticker",
+      "company_names": " name",
+      "url": "https://reut.rs/2L09coy",
+      "verified": "True"
+    },
+    {
+      "id": 1019733841370669000,
+      "text": "Only two northern white rhinos still exist making it the world's most endangered subspecies of mammal https://t.co/WeJufervx6",
+      "timestamp": "Thu Jul 19 00:01:08 +0000 2018",
+      "tweetOwner": "Abdelsatar17",
+      "symbols": "NTRS",
+      "company_names": "Northern",
+      "url": "https://econ.st/2L6bjHz",
+      "verified": "True"
+    },
+    {
+      "id": 1019734658127401000,
+      "text": "Trump tells CBS he's \"always wanted\" to be interviewed by Special Counsel Mueller but deflected questions on whethe… https://t.co/at43BIGpDh",
+      "timestamp": "Thu Jul 19 00:04:22 +0000 2018",
+      "tweetOwner": "Mostafa",
+      "symbols": "CBS",
+      "company_names": "CBS",
+      "url": "https://twitter.com/i/web/status/1019734658127400961",
+      "verified": "True"
+    },
+    {
+      "id": 1019737727477174300,
+      "text": "Templeton and BlackRock say now's the time to buy emerging markets https://t.co/h4z90nxqwH https://t.co/6FkVrZlu3j",
+      "timestamp": "Thu Jul 19 00:16:34 +0000 2018",
+      "tweetOwner": "Abdelsatar17",
+      "symbols": "BLK",
+      "company_names": "BlackRock",
+      "url": "https://bloom.bg/2NmXZLe",
+      "verified": "True"
+    },
+    {
+      "id": 1019739347342577700,
+      "text": "Charts say #RealMoneySOD $GOOGL could rise 17% or more from here: @BruceKamich  https://t.co/cZbRY4daHN",
+      "timestamp": "Thu Jul 19 00:23:00 +0000 2018",
+      "tweetOwner": "Mohamed",
+      "symbols": "GOOGL",
+      "company_names": "Alphabet",
+      "url": "http://bit.ly/2Nof8UW",
+      "verified": "True"
+    },
+    {
+      "id": 1019741289473028100,
+      "text": "EBay revenue misses as weak U.S. sporting season hits StubHub https://t.co/3RdnkMVUn8 https://t.co/N6iXpxEZjG",
+      "timestamp": "Thu Jul 19 00:30:43 +0000 2018",
+      "tweetOwner": "Youssef",
+      "symbols": "EBAY",
+      "company_names": "eBay",
+      "url": "https://reut.rs/2NrITEt",
+      "verified": "True"
+    },
+    {
+      "id": 1019741742386597900,
+      "text": "New York City will force Airbnb to disclose information on its hosts https://t.co/jdq88zBMGR https://t.co/9SPvNk6cVU",
+      "timestamp": "Thu Jul 19 00:32:31 +0000 2018",
+      "tweetOwner": "Mohamed",
+      "symbols": "JD",
+      "company_names": "JD",
+      "url": "https://bloom.bg/2uxotmx",
+      "verified": "True"
+    },
+    {
+      "id": 1019743063328030700,
+      "text": "RT @josheidelson: Exclusive: Elon Musk called Sierra Club's executive director Saturday and \"asked for some help via Twitter\" the green gr…",
+      "timestamp": "Thu Jul 19 00:37:46 +0000 2018",
+      "tweetOwner": "Abdelsatar17",
+      "symbols": "TWTR",
+      "company_names": "Twitter",
+      "url": "",
+      "verified": "False"
+    },
+    {
+      "id": 967109381098758100,
+      "text": "New time: Janet Yellen and I in conversation at Brookings on Feb. 27 at 2 PM EST. Join us online or on Facebook Liv… https://t.co/hDg7X5Rc5P",
+      "timestamp": "Fri Feb 23 18:50:19 +0000 2018",
+      "tweetOwner": "Youssef",
+      "symbols": "FB",
+      "company_names": "Facebook",
+      "url": "https://twitter.com/i/web/status/967109381098758144",
+      "verified": "True"
+    },
+    {
+      "id": 1016082850326642700,
+      "text": "The robot homie R2-D2 told me to buy sell and hold Fidelity National Information Services $FIS #BullMarket",
+      "timestamp": "Sun Jul 08 22:13:24 +0000 2018",
+      "tweetOwner": "Mostafa",
+      "symbols": "FIS",
+      "company_names": "Fidelity National Information Services",
+      "url": "",
+      "verified": "False"
+    },
+    {
+      "id": 1016085297661120500,
+      "text": "Arthur J Gallagher &amp; Co $AJG vs. Marsh &amp; McLennan Companies $MMC Critical Contrast https://t.co/aETTR2nZEq",
+      "timestamp": "Sun Jul 08 22:23:07 +0000 2018",
+      "tweetOwner": "Abdelsatar17",
+      "symbols": "AJG",
+      "company_names": "Arthur J. Gallagher & Co.",
+      "url": "http://zpr.io/6Tnx3",
+      "verified": "False"
+    },
+    {
+      "id": 1016086242583351300,
+      "text": "Arthur J Gallagher &amp; Co $AJG vs. Marsh &amp; McLennan Companies $MMC Critical Contrast https://t.co/CDjCvAKg5D",
+      "timestamp": "Sun Jul 08 22:26:52 +0000 2018",
+      "tweetOwner": "Mohamed",
+      "symbols": "AJG",
+      "company_names": "Arthur J. Gallagher & Co.",
+      "url": "http://www.mareainformativa.com/?p=407083",
+      "verified": "False"
+    },
+    {
+      "id": 1016088038634590200,
+      "text": "$INFO $C Asia Stocks Signal Gains; Dollar Weakness Watched: Markets Wrap via https://t.co/jURZDymPXI",
+      "timestamp": "Sun Jul 08 22:34:01 +0000 2018",
+      "tweetOwner": "Mostafa",
+      "symbols": "INFO",
+      "company_names": "IHS Markit Ltd.",
+      "url": "http://www.hvper.com/?ref=ftw",
+      "verified": "False"
+    },
+    {
+      "id": 1016090469292564500,
+      "text": "RT @dailypoliticaln: Fluor Co. $NEW $FLR Stock Rating Upgraded by Zacks Investment Research https://t.co/bpNgSoZjMH",
+      "timestamp": "Sun Jul 08 22:43:40 +0000 2018",
+      "tweetOwner": "Youssef",
+      "symbols": "FLR",
+      "company_names": "Fluor Corporation",
+      "url": "http://www.dailypolitical.com/?p=2188895",
+      "verified": "False"
+    },
+    {
+      "id": 1016091150300713000,
+      "text": "Avery Dennison Corporation $AVY EPS Estimated At $1.56 - https://t.co/YgOBsCXV2k",
+      "timestamp": "Sun Jul 08 22:46:22 +0000 2018",
+      "tweetOwner": "Abdelsatar17",
+      "symbols": "AVY",
+      "company_names": "Avery Dennison Corporation",
+      "url": "https://www.whatsonthorold.com/2018/07/08/avery-dennison-corporation-avy-eps-estimated-at-1-56/",
+      "verified": "False"
+    },
+    {
+      "id": 1016091322309120000,
+      "text": "What's shaking guys? Inflation &amp; bank earnings are some of your market shakers this week: https://t.co/zUj03RrzaF… https://t.co/cEWyQtbwVs",
+      "timestamp": "Sun Jul 08 22:47:03 +0000 2018",
+      "tweetOwner": "Mohamed",
+      "symbols": "ETR",
+      "company_names": "Entergy Corporation",
+      "url": "https://youtu.be/JkO2zJAN-5Y",
+      "verified": "False"
+    },
+    {
+      "id": 1016091353468596200,
+      "text": "EPS for Avery Dennison Corporation $AVY Expected At $1.56 https://t.co/JgH1US4tJT",
+      "timestamp": "Sun Jul 08 22:47:11 +0000 2018",
+      "tweetOwner": "Mostafa",
+      "symbols": "AVY",
+      "company_names": "Avery Dennison Corporation",
+      "url": "https://reurope.com/2018/07/08/eps-for-avery-dennison-corporation-avy-expected-at-1-56/",
+      "verified": "False"
+    },
+    {
+      "id": 1016091418924933100,
+      "text": "Avery Dennison Corporation $AVY EPS Estimated At $1.56 - https://t.co/TGdsFYlo7V",
+      "timestamp": "Sun Jul 08 22:47:26 +0000 2018",
+      "tweetOwner": "Abdelsatar17",
+      "symbols": "AVY",
+      "company_names": "Avery Dennison Corporation",
+      "url": "https://www.bibeypost.com/avery-dennison-corporation-avy-eps-estimated-at-1-56/",
+      "verified": "False"
+    },
+    {
+      "id": 1016094537868042200,
+      "text": "RT @oliviabvoz: What's shaking guys? Inflation &amp; bank earnings are some of your market shakers this week: https://t.co/zUj03RrzaF $PEP $FST…",
+      "timestamp": "Sun Jul 08 22:59:50 +0000 2018",
+      "tweetOwner": "Youssef",
+      "symbols": "ETR",
+      "company_names": "Entergy Corporation",
+      "url": "https://youtu.be/JkO2zJAN-5Y",
+      "verified": "False"
+    },
+    {
+      "id": 1016096101588353000,
+      "text": "Do you know that #Book Value for $XYL is $13.92 https://t.co/P8NnY8vkF6",
+      "timestamp": "Sun Jul 08 23:06:03 +0000 2018",
+      "tweetOwner": "Mohamed",
+      "symbols": "XYL",
+      "company_names": "Xylem Inc.",
+      "url": "https://unicornbay.com/t/XYL.US?utm_medium=tweet&utm_campaign=bookvalue&utm_source=twitter",
+      "verified": "False"
+    },
+    {
+      "id": 1016098363517726700,
+      "text": "Do you know that #WallStreet price for $IRM is $38.83 https://t.co/K8TFsUFESC",
+      "timestamp": "Sun Jul 08 23:15:02 +0000 2018",
+      "tweetOwner": "Abdelsatar17",
+      "symbols": "IRM",
+      "company_names": "Iron Mountain Incorporated",
+      "url": "https://unicornbay.com/t/IRM.US?utm_medium=tweet&utm_campaign=wallstreet&utm_source=twitter",
+      "verified": "False"
+    },
+    {
+      "id": 1016101380958744600,
+      "text": "Wondering about risks of $IRM? The 21-day volatility is 4.12% https://t.co/6KpJaP4fac",
+      "timestamp": "Sun Jul 08 23:27:02 +0000 2018",
+      "tweetOwner": "Mostafa",
+      "symbols": "IRM",
+      "company_names": "Iron Mountain Incorporated",
+      "url": "https://unicornbay.com/t/IRM.US?utm_medium=tweet&utm_campaign=volatility&utm_source=twitter",
+      "verified": "False"
+    },
+    {
+      "id": 1016101408507035600,
+      "text": "$ORLY Max Pain=280.00. Maturity=07/20/2018. #maxpain #options https://t.co/E1QxoAmxz0 https://t.co/SIIeXlCE1t",
+      "timestamp": "Sun Jul 08 23:27:08 +0000 2018",
+      "tweetOwner": "Abdelsatar17",
+      "symbols": "ORLY",
+      "company_names": "O'Reilly Automotive",
+      "url": "http://maximum-pain.com/options/max-pain/ORLY",
+      "verified": "False"
+    }
+  ],
+  "hashtags": [
+    {
+      "id": 10,
+      "value": "#wrold_Cup",
+      "numberOfUse": 143
+    },
+    {
+      "id": 12,
+      "value": "#ComeOnCitizens",
+      "numberOfUse": 75
+    },
+    {
+      "id": 15,
+      "value": "#Khalsana",
+      "numberOfUse": 96
+    },
+    {
+      "id": 21,
+      "value": "#GomhorEltalta",
+      "numberOfUse": 164
+    },
+    {
+      "id": 17,
+      "value": "#newEgypt",
+      "numberOfUse": 22
+    }
+  ]
+}

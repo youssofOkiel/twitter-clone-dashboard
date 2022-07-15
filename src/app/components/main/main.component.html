@@ -1,0 +1,89 @@
+<div class="container">
+    <div class="row">
+        <div class="col-4">
+            <div class="card shadow border-danger">
+
+                <div class="card-body">
+                  <h1 class="card-title text-danger">{{users.length}} users</h1>
+                  <p class="card-text">who use the my twitter website ,you can edit or delete any user.</p>
+                  <a routerLink="/users" class="btn btn-danger">go to Twitter users</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <div class="card shadow border-success">
+
+                <div class="card-body">
+                  <h1 class="card-title text-success">{{tweets.length}} Tweets</h1>
+                  <p class="card-text">any user can tweet , but we can edit or delete this tweet.</p>
+                  <a routerLink="/tweets" class="btn btn-success">go to Tweets</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <div class="card shadow border-primary">
+
+                <div class="card-body">
+                  <h1 class="card-title text-primary">{{hashs.length}} Hashtags</h1>
+                  <p class="card-text">any user can make a hashtags , but we can edit or delete this hashtags.</p>
+                  <a routerLink="/hashtags" class="btn btn-primary">go to Twitter Hashtags</a>
+                </div>
+              </div>
+        </div>
+       
+    </div>
+
+
+    <div class="row mt-5">
+        <div class="col-4 text-center">
+            <circle-progress
+            [percent]="87"
+            [radius]="80"
+            [outerStrokeWidth]="12"
+            [innerStrokeWidth]="4"
+            [outerStrokeColor]="'#B13'"
+            [innerStrokeColor]="'#955'"
+            [animation]="true"
+            [subtitle]="'user/tweets'"
+            [subtitleFontSize] = "'15'"
+            [animationDuration]="2000"
+          ></circle-progress>
+        </div>
+        
+            <div class="col-4 text-center">
+                <circle-progress
+            [percent]="63"
+            [radius]="80"
+            [outerStrokeWidth]="12"
+            [innerStrokeWidth]="4"
+            [outerStrokeColor]="'#1B3'"
+            [innerStrokeColor]="'#595'"
+            [animation]="true"
+            [subtitle]="'user/hashtags'"
+            [subtitleFontSize] = "'15'"
+            [animationDuration]="2000"
+          ></circle-progress>
+            </div>
+            
+                <div class="col-4 text-center">
+                    <circle-progress
+            [percent]="95"
+            [radius]="80"
+            [outerStrokeWidth]="12"
+            [innerStrokeWidth]="4"
+            [outerStrokeColor]="'#3EB'"
+            [innerStrokeColor]="'#1AA'"
+            [animation]="true"
+            [subtitle]="'accuracy'"
+            [subtitleFontSize] = "'15'"
+            [animationDuration]="2000"
+          ></circle-progress>
+                </div>
+    </div>
+    
+    
+   
+</div>
+      
+      
+      

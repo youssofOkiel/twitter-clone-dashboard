@@ -1,0 +1,50 @@
+<div class="row">
+    <div class="col-md-3 text-center">
+        <circle-progress
+        [percent]="95"
+        [radius]="80"
+        [outerStrokeWidth]="12"
+        [innerStrokeWidth]="4"
+        [outerStrokeColor]="'#3EB'"
+        [innerStrokeColor]="'#1AA'"
+        [animation]="true"
+        [subtitle]="'accuracy'"
+        [subtitleFontSize] = "'15'"
+        [animationDuration]="2000"
+      ></circle-progress>
+      <a class="btn btn-primary mt-4" routerLink="/main"> Back to main</a>
+    </div>
+    <div class="col-md-8">
+      <h1
+        style="
+          color: rgb(15, 74, 141);
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+            'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        "
+        class="m-3"
+      >
+        {{hashtags.length}} Hashtags
+      </h1>
+      <table style="border: 3px solid rgb(4, 39, 136)" class="table">
+        <thead class="bg-primary text-light">
+          <tr>
+            <th>id</th>
+            <th>hashtag Name</th>
+            <th># of uses</th>
+            <th>delete</th>
+          </tr>
+        </thead>
+  
+        <tbody class="bg-light">
+          <tr *ngFor="let tweet of hashtags">
+            <td>{{tweet.id}}</td>
+            <td>{{tweet.value}}</td>
+            <td>{{tweet.numberOfUse}}</td>
+            <td><button class="btn" onclick="alert('deleting')"><i class="fa-solid fa-trash text-danger fs-4"></i></button></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  
+  

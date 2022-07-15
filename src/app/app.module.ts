@@ -7,6 +7,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { MainComponent } from './components/main/main.component';
 import {NgCircleProgressModule} from 'ng-circle-progress'
 import { HttpClientModule } from '@angular/common/http';
+
+import { HashtagsComponent } from './components/hashtags/hashtags.component';
 import { TweetsComponent } from './components/tweets/tweets.component';
 import { UsersComponent } from './components/users/users.component';
 
@@ -15,8 +17,10 @@ import { UsersComponent } from './components/users/users.component';
     AppComponent,
     NavbarComponent,
     MainComponent,
+    HashtagsComponent
     TweetsComponent
     UsersComponent
+
   ],
   imports: [
     BrowserModule,

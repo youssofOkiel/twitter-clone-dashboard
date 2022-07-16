@@ -8,6 +8,9 @@ import {NgCircleProgressModule} from 'ng-circle-progress'
 import { HttpClientModule } from '@angular/common/http';
 import { NotfoundComponent } from './components/notfound/notfound.component';
 
+import { HashtagsComponent } from './components/hashtags/hashtags.component';
+import { TweetsComponent } from './components/tweets/tweets.component';
+import { UsersComponent } from './components/users/users.component';
 
 @NgModule({
   declarations: [
@@ -15,9 +18,12 @@ import { NotfoundComponent } from './components/notfound/notfound.component';
     NavbarComponent,
     MainComponent,
     NotfoundComponent,
+    HashtagsComponent
+    TweetsComponent
+    UsersComponent
   ],
   imports: [
-  BrowserModule,
+    BrowserModule,
     AppRoutingModule,
     NgCircleProgressModule.forRoot({}),
     HttpClientModule

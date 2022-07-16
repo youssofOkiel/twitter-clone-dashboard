@@ -7,16 +7,11 @@ import { TweetsComponent } from './components/tweets/tweets.component';
 import { UsersComponent } from './components/users/users.component';
 
 const routes: Routes = [
-  { path:"" , component:MainComponent,children:[
-    {path:"main" , component:MainComponent},
+    {path:"" , component:MainComponent},
     {path:"hashtags" , component:HashtagsComponent},
     {path:"tweets" , component:TweetsComponent},
-    {path:"users" , component:UsersComponent}
-    
-  ]},
-  
-  {path:"**" , component:NotfoundComponent},
-
+    {path:"users" , component:UsersComponent},
+    {path:"**" , component:NotfoundComponent},
 ];
 
 

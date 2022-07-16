@@ -18,8 +18,8 @@ import { UsersComponent } from './components/users/users.component';
     NavbarComponent,
     MainComponent,
     NotfoundComponent,
-    HashtagsComponent
-    TweetsComponent
+    HashtagsComponent,
+    TweetsComponent,
     UsersComponent
   ],
   imports: [

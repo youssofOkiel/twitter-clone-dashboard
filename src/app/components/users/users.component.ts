@@ -3,31 +3,29 @@ import { Router } from '@angular/router';
 import { Iuser } from 'src/app/models/iuser';
 import { UsersService } from 'src/app/services/users.service';
 
-
-
 @Component({
   selector: 'app-users',
   templateUrl: './users.component.html',
-  styleUrls: ['./users.component.scss']
+  styleUrls: ['./users.component.scss'],
 })
 export class UsersComponent implements OnInit {
-
-  users:Iuser[] = []
-  constructor(private service:UsersService ,  private router:Router) { 
-   
-  }
+  users: Iuser[] = [];
+  constructor(private service: UsersService, private router: Router) {}
 
   ngOnInit(): void {
-  this.users = this.service.twitterUsers   
+    // this.users = this.service.twitterUsers;
+    this.service.users.subscribe((user) => {
+      this.users = user;
+    });
+
+    console.log(this.users);
   }
 
-  delete(id:number){
-
-    if(confirm("are you sure to delete this user !"))
-    {
-      this.service.deleteUser(id).subscribe(u => this.router.navigate(['/main']))
+  delete(id: number) {
+    if (confirm('are you sure to delete this user !')) {
+      this.service
+        .deleteUser(id)
+        .subscribe((u) => this.router.navigate(['/main']));
     }
-
   }
-
 }

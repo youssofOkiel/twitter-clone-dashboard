@@ -1,12 +1,11 @@
 export interface Itweet {
 
-          id:number,
+          id:string,
           text: string,
+          altText: string,
           timestamp: string,
-          tweetOwner: string,
-          symbols:string,
-          company_names: string,
-          url: string,
-          verified: string
+          senderId: string,
+          image: string,
+          likes: string[],
 
 }

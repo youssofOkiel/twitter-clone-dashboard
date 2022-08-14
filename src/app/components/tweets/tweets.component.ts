@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { UsersService } from 'src/app/services/users.service';
+import { TweetsService } from 'src/app/services/tweet/tweets.service';
 import { Itweet } from './../../models/itweet';
 
 @Component({
@@ -9,16 +9,30 @@ import { Itweet } from './../../models/itweet';
   styleUrls: ['./tweets.component.scss'],
 })
 export class TweetsComponent implements OnInit {
-  tweets: Itweet[] = [];
-  constructor(private service: UsersService, private router: Router) {}
+  tweets: Itweet[];
+
+  constructor(private service: TweetsService, private router: Router) {}
 
   ngOnInit(): void {
-    this.tweets = this.service.tweets;
+    this.service.getTweets().subscribe((data) => {
+      this.tweets = data.map((e) => {
+        console.log('e', e.payload.doc.data());
+
+        return {
+          id: e.payload.doc.id,
+          ...Object(e.payload.doc.data()),
+        } as Itweet;
+      });
+    });
   }
 
-  delete(id: number) {
-    if (confirm('are you sure to delete this Tweet !')) {
-      this.service.deleteTweet(id).subscribe((t) => this.router.navigate(['/main']));
+  update(tweet: Itweet) {
+    this.service.updateTweet(tweet);
+  }
+
+  delete(id: string) {
+    if (confirm('confirm delete !')) {
+      this.service.deleteTweet(id);
     }
   }
 }

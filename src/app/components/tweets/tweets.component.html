@@ -1,50 +1,57 @@
 <div class="row">
-    <div class="col-md-3 text-center">
-        <circle-progress
-        [percent]="63"
-        [radius]="80"
-        [outerStrokeWidth]="12"
-        [innerStrokeWidth]="4"
-        [outerStrokeColor]="'#1B3'"
-        [innerStrokeColor]="'#595'"
-        [animation]="true"
-        [subtitle]="'User/Tweets'"
-        [subtitleFontSize] = "'15'"
-        [animationDuration]="2000"
-      ></circle-progress>
-      <a class="btn btn-success mt-4" routerLink="/main"> Back to main</a>
-    </div>
-    <div class="col-md-8">
-      <h1
-        style="
-          color: rgb(33, 121, 11);
-          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
-            'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        "
-        class="m-3"
-      >
-        {{tweets.length}} Tweets
-      </h1>
-      <table style="border: 3px solid rgb(3, 121, 38)" class="table">
-        <thead class="bg-success text-light">
-          <tr>
-            <th>id</th>
-            <th>Tweet Owner</th>
-            <th># of Tweets</th>
-            <th>delete</th>
-          </tr>
-        </thead>
-  
-        <tbody class="bg-light">
-          <tr *ngFor="let tweet of tweets">
-            <td>{{tweet.id}}</td>
-            <td>{{tweet.tweetOwner}}</td>
-            <td>{{tweet.symbols}}</td>
-            <td><button class="btn" (click)="delete(tweet.id)"><i class="fa-solid fa-trash text-danger fs-4"></i></button></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+  <div class="col-md-3 text-center">
+    <circle-progress
+      [percent]="63"
+      [radius]="80"
+      [outerStrokeWidth]="12"
+      [innerStrokeWidth]="4"
+      [outerStrokeColor]="'#1B3'"
+      [innerStrokeColor]="'#595'"
+      [animation]="true"
+      [subtitle]="'User/Tweets'"
+      [subtitleFontSize]="'15'"
+      [animationDuration]="2000"
+    ></circle-progress>
   </div>
-  
-  
+  <div class="col-md-8">
+    <h1
+      style="
+        color: rgb(33, 121, 11);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+          'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      "
+      class="m-3"
+    >
+      {{(tweets).length}} Tweets
+    </h1>
+    <table style="border: 3px solid rgb(3, 121, 38)" class="table">
+      <thead class="bg-success text-light">
+        <tr>
+          <th>id</th>
+          <th>text</th>
+          <th>image</th>
+          <th># of likes</th>
+          <th>created at</th>
+          <th>Owner</th>
+          <th>delete</th>
+        </tr>
+      </thead>
+
+      <tbody class="bg-light">
+        <tr *ngFor="let tweet of tweets">
+          <td>{{ tweet.id }}</td>
+          <td>{{ tweet.text }}</td>
+          <td><a href="{{ tweet.image }}" target="_blank" >Tweet image</a> </td>
+          <td>{{ (tweet.likes).length }}</td>
+          <td>{{ tweet.timestamp }}</td>
+          <td>{{ tweet.senderId }}</td>
+          <td>
+            <button class="btn" (click)="delete(tweet.id)">
+              <i class="fa-solid fa-trash text-danger fs-4"></i>
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

@@ -1,12 +1,19 @@
 export interface Iuser {
 
-    id:number,
-    userName:string,
+    id:string,
+    username:string,
     displayName:string,
     email:string,
+    is_active:boolean,
     password:string,
-    Tweets:string[]
-
+    joined:string,
+    photoURL:string,
+    bio:string,
+    followers:string[],
+    following:string[],
+    location:string,
+    rooms:string[],
+    verified:boolean,
+    wallpaper:string,
+    website:string,
 }
-
-

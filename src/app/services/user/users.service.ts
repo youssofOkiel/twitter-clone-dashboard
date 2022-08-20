@@ -2,7 +2,6 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Iuser } from '../../models/iuser';
 import { Itweet } from '../../models/itweet';
-import { Ihash } from '../../models/ihash';
 import {
   AngularFirestore,
   AngularFirestoreDocument,
@@ -13,12 +12,9 @@ import { Observable } from 'rxjs';
   providedIn: 'root',
 })
 export class UsersService {
-  tweets: Itweet[] = [];
-  hashtags: Ihash[] = [];
-  // users: Observable<any[]>;
   users: Iuser[];
 
-  constructor(private http: HttpClient, private firestore: AngularFirestore) {
+  constructor( private firestore: AngularFirestore) {
   }
 
   getUsers() {

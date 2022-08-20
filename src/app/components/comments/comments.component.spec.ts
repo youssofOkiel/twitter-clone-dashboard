@@ -1,18 +1,19 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { CommentsComponent } from './comments.component';
 
-import { HashtagsComponent } from './hashtags.component';
 
-describe('HashtagsComponent', () => {
-  let component: HashtagsComponent;
-  let fixture: ComponentFixture<HashtagsComponent>;
+
+describe('CommentsComponent', () => {
+  let component: CommentsComponent;
+  let fixture: ComponentFixture<CommentsComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ HashtagsComponent ]
+      declarations: [ CommentsComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(HashtagsComponent);
+    fixture = TestBed.createComponent(CommentsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

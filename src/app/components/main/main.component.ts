@@ -4,14 +4,9 @@ import { Component, OnInit } from '@angular/core';
 import { UsersService } from '../../services/user/users.service';
 import { Iuser } from './../../models/iuser';
 import { Itweet } from './../../models/itweet';
-import { Ihash } from './../../models/ihash';
-import { Observable } from 'rxjs';
 import { TweetsService } from 'src/app/services/tweet/tweets.service';
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+import { Icomment } from 'src/app/models/iComment';
+import { CommentsService } from 'src/app/services/comment/comments.service';
 @Component({
   selector: 'app-main',
   templateUrl: './main.component.html',
@@ -21,9 +16,10 @@ import { TweetsService } from 'src/app/services/tweet/tweets.service';
 export class MainComponent implements OnInit {
 
   users:Iuser[] ;
-  tweets:Itweet[]
+  tweets:Itweet[];
+  comments: Icomment[];
 
-  constructor(private userService:UsersService, private tweetService: TweetsService) { }
+  constructor(private userService:UsersService, private tweetService: TweetsService, private commentService: CommentsService) { }
 
   ngOnInit(): void {
     this.userService.getUsers().subscribe((data) => {
@@ -45,6 +41,16 @@ export class MainComponent implements OnInit {
           id: e.payload.doc.id,
           ...Object(e.payload.doc.data()),
         } as Itweet;
+      });
+    });
+
+
+    this.commentService.getComments().subscribe((data) => {
+      this.comments = data.map((e) => {
+        return {
+          id: e.payload.doc.id,
+          ...Object(e.payload.doc.data()),
+        } as Icomment;
       });
     });
 

@@ -8,13 +8,13 @@ import {NgCircleProgressModule} from 'ng-circle-progress'
 import { HttpClientModule } from '@angular/common/http';
 import { NotfoundComponent } from './components/notfound/notfound.component';
 
-import { HashtagsComponent } from './components/hashtags/hashtags.component';
 import { TweetsComponent } from './components/tweets/tweets.component';
 import { UsersComponent } from './components/users/users.component';
 
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { environment } from '../environments/environment';
+import { CommentsComponent } from './components/comments/comments.component';
 
 @NgModule({
   declarations: [
@@ -22,8 +22,8 @@ import { environment } from '../environments/environment';
     NavbarComponent,
     MainComponent,
     NotfoundComponent,
-    HashtagsComponent,
     TweetsComponent,
+    CommentsComponent,
     UsersComponent
   ],
   imports: [
